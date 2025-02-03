@@ -1,0 +1,13 @@
+//== Base
+
+html,
+body {
+  background-color: transparent;
+}
+
+
+div:has(> input[required]) label:after { 
+    content: '*'; 
+    color: var(--red, red); 
+    margin-left: 5px;
+}

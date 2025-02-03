@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/neocioforms/clientlibs"/>
+    <filter root="/apps/neocioforms/components"/>
+    <filter root="/apps/neocioforms/i18n"/>
+</workspaceFilter>

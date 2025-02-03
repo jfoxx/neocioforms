@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/neocioforms",
+        "create path (nt:unstructured) /content/dam/neocioforms/jcr:content",
+        "set properties on /content/dam/neocioforms/jcr:content\n  set cq:conf{String} to /conf/neocioforms\n  set jcr:title{String} to \"Forms Add Ons\"\nend"
+    ]
+}
